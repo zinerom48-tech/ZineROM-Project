@@ -5,10 +5,10 @@ The product images on this fan project are shown only to identify the listed dev
 | Device | Image source / reference |
 | --- | --- |
 | Galaxy A11 | Model-specific Galaxy A11 SM-A115F/DS product image from an eBay product-image search result; seller ownership remains with the listing source. |
-| Galaxy A52s 5G | Galaxy A52s 5G product image from an eBay product-image search result; seller ownership remains with the listing source. |
-| Galaxy A53 5G | Galaxy A53 5G product image from an eBay product-image search result; seller ownership remains with the listing source. |
-| Galaxy A25 5G | Galaxy A25 5G product image from an eBay product-image search result; seller ownership remains with the listing source. |
-| Galaxy A34 5G | Galaxy A34 5G product image from an eBay product-image search result; seller ownership remains with the listing source. |
+| Galaxy A52s 5G | User-provided Galaxy A52s 5G reference image, re-encoded to WebP for the website. |
+| Galaxy A53 5G | Samsung Global Newsroom product reference; image rights remain with Samsung. |
+| Galaxy A25 5G | Tracfone product reference; image rights remain with the respective owner. |
+| Galaxy A34 5G | Product image search reference, re-encoded to WebP; image rights remain with the respective owner. |
 | Galaxy A15 | Galaxy A15 product image from the Boost Mobile catalog search result; image rights remain with its owner. The device's LTE/5G variant is not confirmed by this roadmap. |
 | Galaxy A16 | Galaxy A16 product image from the AT&T catalog search result; image rights remain with its owner. The device's LTE/5G variant is not confirmed by this roadmap. |
 | Galaxy A17 | Galaxy A17 product image from Samsung US search result; image rights remain with Samsung. The device's LTE/5G variant is not confirmed by this roadmap. |

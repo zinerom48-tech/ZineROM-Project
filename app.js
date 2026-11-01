@@ -145,7 +145,7 @@ function renderGrid(){
     button.setAttribute("aria-pressed",device.id===currentDevice.id?"true":"false");
     button.setAttribute("aria-label",`${device.name}, ${device.ui}, ${statusText(device.status)}`);
     const media=document.createElement("span");media.className="tile-image";
-    const image=document.createElement("img");image.src=device.image;image.alt=imageAlt(device);image.loading="lazy";image.decoding="async";media.append(image);
+    const image=document.createElement("img");image.src=device.image;image.alt=imageAlt(device);image.loading="eager";image.decoding="async";media.append(image);
     const content=document.createElement("span");content.className="tile-content";
     const row=document.createElement("span");row.className="tile-title-row";
     const title=document.createElement("span");title.className="tile-title";title.textContent=device.name;
