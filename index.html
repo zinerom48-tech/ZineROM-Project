@@ -1,27 +1,27 @@
 <!doctype html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" data-brand="ZineROM-Project">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#071324">
   <meta name="description" content="ZineROM community device roadmap. Select a Galaxy device to see its planned One UI and Android target, project status, and available test downloads.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="ZineROM — Galaxy Device Roadmap">
+  <meta property="og:title" content="ZineROM-Project — Galaxy Device Roadmap">
   <meta property="og:description" content="Community One UI ports, device by device. Experimental builds and roadmap targets are clearly marked.">
-  <title>ZineROM — Galaxy Device Roadmap</title>
+  <title>ZineROM-Project — Galaxy Device Roadmap</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%230b1d36'/%3E%3Cpath d='M16 18h32v8L27 46h21' fill='none' stroke='%237fc4ff' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
 </head>
 <body>
   <header class="shell topbar" id="top">
-    <a class="brand" href="#top" aria-label="ZineROM home">
-      <span class="brand-mark" aria-hidden="true">ZR</span>
-      <span>ZineROM</span>
+    <a class="brand" href="#top" aria-label="ZineROM-Project home">
+      <span class="brand-mark" aria-hidden="true">Z</span>
+      <span>ZineROM-Project</span>
     </a>
     <nav class="top-actions" aria-label="Main navigation">
       <a class="nav-link" href="#devices" data-i18n="navDevices">Devices</a>
-      <a class="nav-link" href="https://github.com/nova-arch008/ZineROM-A115F-OneUI7-boot-test" target="_blank" rel="noopener noreferrer" data-i18n="navGithub">A11 project</a>
+      <a class="nav-link" href="https://t.me/ZineROMProject" target="_blank" rel="noopener noreferrer" data-i18n="navGithub">Community</a>
       <label class="sr-only" for="language-select" data-i18n="languageLabel">Language</label>
       <select class="language-select" id="language-select" aria-label="Language">
         <option value="en">English</option>
@@ -70,7 +70,9 @@
             <div class="spec"><span data-i18n="targetAndroid">Target Android</span><strong id="selected-android">Android 15</strong></div>
           </div>
           <p class="device-note" id="selected-note"></p>
+          <div class="selected-meta"><div><span>ROM Base</span><strong id="selected-base">To be confirmed</strong></div><p id="selected-special"></p></div>
           <div id="action-slot" class="action-slot"></div>
+          <a id="request-support" class="support-link" href="https://t.me/ZineROMProject/109" target="_blank" rel="noopener noreferrer">Request Support</a>
           <div class="checksum" id="checksum-panel" hidden>
             <span class="checksum-label">SHA-256</span>
             <div class="hash-row"><code id="checksum-value"></code><button class="copy-button" type="button" id="copy-checksum" data-i18n="copy">Copy</button></div>
@@ -88,6 +90,8 @@
         <p class="section-intro" data-i18n="devicesIntro">A11 and A52s target One UI 7 / Android 15. The remaining listed devices are roadmap targets for One UI 8.5 / 9.0 and Android 16 / 17.</p>
       </div>
       <div class="device-grid" id="device-grid"></div>
+      <div class="feature-panel"><div><p class="overline">ZineROM | Features</p><h3>Main Features</h3><ul id="feature-list"></ul></div><div><h3>Optimization</h3><ul id="optimization-list"></ul></div><p class="developer-note"><strong>Important:</strong> boot.img is for developers only. Do not flash boot.img during regular installations.<br>Developer: @ZineFather</p></div>
+      <div class="community-box"><strong>ZineROM-Project community</strong><a href="https://t.me/zineromupdates" target="_blank" rel="noopener noreferrer">ZineROM Updates</a><a href="https://t.me/ZineROMProject" target="_blank" rel="noopener noreferrer">ZineROM Project</a></div>
       <div class="notice-box">
         <strong data-i18n="noticeTitle">Experimental and in progress</strong>
         <p data-i18n="noticeText">The A11 ZIP is a diagnostic test build, not a stable ROM. No public downloads are available yet for the other devices. Check the exact device variant before testing; never flash a build intended for a different model.</p>
@@ -96,9 +100,9 @@
   </main>
 
   <footer class="shell footer">
-    <div><strong>ZineROM</strong><span class="footer-copy" data-i18n="footerText"> Independent community porting project. Not affiliated with Samsung.</span></div>
+    <div><strong>ZineROM-Project</strong><span class="footer-copy" data-i18n="footerText"> Independent community porting project. Not affiliated with Samsung.</span></div>
     <div class="footer-links">
-      <a href="https://github.com/nova-arch008/ZineROM-A115F-OneUI7-boot-test" target="_blank" rel="noopener noreferrer" data-i18n="navGithub">A11 project</a>
+      <a href="https://t.me/ZineROMProject" target="_blank" rel="noopener noreferrer" data-i18n="navGithub">Community</a>
       <a href="IMAGE_CREDITS.md" data-i18n="imageCredits">Image credits</a>
       <a href="#top" data-i18n="backToTop">Back to top</a>
     </div>

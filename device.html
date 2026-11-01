@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-page="device" data-brand="ZineROM-Project">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071324">
+  <meta name="description" content="ZineROM-Project device details, base firmware, features, and availability.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ZineROM-Project — Device Details">
+  <meta property="og:description" content="Device-specific ZineROM-Project information, downloads, features, and installation notes.">
+  <title>ZineROM-Project — Device Details</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%230b1d36'/%3E%3Cpath d='M16 18h32v8L27 46h21' fill='none' stroke='%237fc4ff' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-page="device">
+  <header class="shell topbar" id="top">
+    <a class="brand" href="index.html" aria-label="ZineROM-Project home">
+      <span class="brand-mark" aria-hidden="true">Z</span>
+      <span>ZineROM-Project</span>
+    </a>
+    <nav class="top-actions" aria-label="Main navigation">
+      <a class="nav-link" href="index.html#devices" data-i18n="navDevices">Devices</a>
+      <a class="nav-link" href="https://t.me/ZineROMProject" target="_blank" rel="noopener noreferrer" data-i18n="navGithub">Community</a>
+      <label class="sr-only" for="language-select" data-i18n="languageLabel">Language</label>
+      <select class="language-select" id="language-select" aria-label="Language">
+        <option value="en">English</option><option value="ar">العربية</option><option value="es">Español</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="tr">Türkçe</option><option value="pt">Português</option><option value="id">Bahasa Indonesia</option><option value="hi">हिन्दी</option><option value="ur">اردو</option><option value="bn">বাংলা</option><option value="ru">Русский</option>
+      </select>
+    </nav>
+  </header>
+
+  <main>
+    <section class="shell hero device-page-hero" aria-labelledby="selected-name">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="live-dot" aria-hidden="true"></span><span>DEVICE DETAILS</span></span>
+        <h1 id="selected-name">Galaxy A11</h1>
+        <p class="lead" id="selected-note">Loading device information…</p>
+        <label class="field-label" for="device-select">Choose another Galaxy</label>
+        <select class="device-select" id="device-select" aria-label="Select a Galaxy device"></select>
+        <p class="roadmap-note">Device-specific download status, base firmware, features, and test notes are kept on this page.</p>
+      </div>
+      <aside class="selected-card" aria-live="polite" aria-label="Device details">
+        <div class="selected-image-wrap"><img id="selected-image" src="device-a11.webp" alt="Galaxy A11 product image"><span class="image-caption" id="image-caption">Galaxy A11</span></div>
+        <div class="selected-body">
+          <div class="selected-heading"><div><p class="overline">SELECTED DEVICE</p><h2 id="selected-name-card">Galaxy A11</h2><p class="model-code" id="selected-code">SM-A115F</p></div><span class="status-badge" id="selected-status"></span></div>
+          <div class="spec-grid"><div class="spec"><span data-i18n="targetUi">Target One UI</span><strong id="selected-ui">One UI 7</strong></div><div class="spec"><span data-i18n="targetAndroid">Target Android</span><strong id="selected-android">Android 15</strong></div></div>
+          <div class="selected-meta"><div><span>ROM Base</span><strong id="selected-base">To be confirmed</strong></div><p id="selected-special"></p></div>
+          <div id="action-slot" class="action-slot"></div><a id="request-support" class="support-link" href="https://t.me/ZineROMProject/109" target="_blank" rel="noopener noreferrer">Request Support</a>
+          <div class="checksum" id="checksum-panel" hidden><span class="checksum-label">SHA-256</span><div class="hash-row"><code id="checksum-value"></code><button class="copy-button" type="button" id="copy-checksum" data-i18n="copy">Copy</button></div></div>
+        </div>
+      </aside>
+    </section>
+
+    <div id="device-grid" hidden></div>
+    <section class="shell section" aria-labelledby="features-title">
+      <div class="section-heading"><div><p class="overline">ZineROM | Features</p><h2 id="features-title">Features and optimization</h2></div><p class="section-intro">Shared project features are listed here, while each device page keeps its own compatibility and limitation notes.</p></div>
+      <div class="feature-panel"><div><h3>Main Features</h3><ul id="feature-list"></ul></div><div><h3>Optimization</h3><ul id="optimization-list"></ul></div><p class="developer-note"><strong>Important:</strong> boot.img is for developers only. Do not flash boot.img during regular installations.<br>Developer: @ZineFather</p></div>
+      <div class="community-box"><strong>ZineROM-Project community</strong><a href="https://t.me/zineromupdates" target="_blank" rel="noopener noreferrer">ZineROM Updates</a><a href="https://t.me/ZineROMProject" target="_blank" rel="noopener noreferrer">ZineROM Project</a></div>
+    </section>
+  </main>
+
+  <footer class="shell footer"><div><strong>ZineROM-Project</strong><span class="footer-copy" data-i18n="footerText"> Independent community porting project. Not affiliated with Samsung.</span></div><div class="footer-links"><a href="index.html#devices" data-i18n="navDevices">Devices</a><a href="https://t.me/ZineROMProject/109" target="_blank" rel="noopener noreferrer">Request Support</a><a href="#top" data-i18n="backToTop">Back to top</a></div></footer>
+</body>
+</html>
